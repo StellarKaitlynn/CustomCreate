@@ -1,9 +1,16 @@
+api: Spigot
 name: CustomCreate
 version: '${project.version}'
 main: minecraft.stellarkaitlynn.customCreate.CustomCreate
 api-version: 1.18
 prefix: customCreate
 load: STARTUP
-authors: [StellarTwilight, StellarKaitlynn]
-description: A modular-based Spigot plugin aimed for ultimate ease and customizability.
+author: CosmicTwilight
+description: A modular-based Spigot plugin aimed to bring ultimate ease and customizability to servers.
 website: https://discord.gg/W46j9295pk
+
+commands:
+  CustomCreate:
+    aliases: [CC]
+    description: Main command for CustomCreate.
+    usage: "Please type /CustomCreate help to view a list of commands included with this plugin."
