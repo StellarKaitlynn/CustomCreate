@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4758507-f033-472f-b0b2-aa4550e08646" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="27MG3pXCWdYasnIQLh6LNLQrXRH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CustomCreate build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4758507-f033-472f-b0b2-aa4550e08646" name="Default Changelist" comment="" />
+      <created>1649122344573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649122344573</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="605" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1649123952575">
+      <screen x="0" y="0" width="1600" height="868" />
+    </state>
+    <state x="605" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1600.868@0.0.1600.868" timestamp="1649123952575" />
+    <state x="580" y="189" key="FileChooserDialogImpl" timestamp="1649191338116">
+      <screen x="0" y="0" width="1600" height="868" />
+    </state>
+    <state x="580" y="189" key="FileChooserDialogImpl/0.0.1600.868@0.0.1600.868" timestamp="1649191338116" />
+    <state x="301" y="79" key="SettingsEditor" timestamp="1649123263656">
+      <screen x="0" y="0" width="1600" height="868" />
+    </state>
+    <state x="301" y="79" key="SettingsEditor/0.0.1600.868@0.0.1600.868" timestamp="1649123263656" />
+    <state x="182" y="95" key="new project wizard" timestamp="1649122941245">
+      <screen x="0" y="0" width="1600" height="868" />
+    </state>
+    <state x="182" y="95" key="new project wizard/0.0.1600.868@0.0.1600.868" timestamp="1649122941245" />
+  </component>
+</project>
