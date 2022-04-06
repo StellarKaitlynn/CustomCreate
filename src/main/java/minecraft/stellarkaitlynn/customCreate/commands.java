@@ -8,16 +8,20 @@ import org.bukkit.command.CommandSender;
 import java.util.List;
 
 public class commands implements CommandExecutor {
-    @Override
-    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        return false;
-    }
     private Main plugin;
 
     public commands(Main Plugin){
         this.plugin = plugin;
-        Command Test = null;
-
+        plugin.getCommand("CustomCreate").setExecutor(this);
     }
 
+    @Override
+    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+        Player player = (Player) sender;
+        if (cmd.getName().equalsIgnoreCase("CustomCreate"))
+        {
+            player.sendMessage("Type '/CustomCreate Help' for help with the CustomCreate commands!");
+        }
+        return false;
+    }   
 }
