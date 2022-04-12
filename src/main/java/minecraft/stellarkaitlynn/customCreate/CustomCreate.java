@@ -11,28 +11,6 @@ public final class CustomCreate extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getLogger().info("Attempting to enable CustomCreate!");
-        config.addDefault("adminToolsModule", true);
-        config.addDefault("performanceDebuggingHandlerModule", true);
-        config.addDefault("worldWebNetworkModule", true);
-        config.addDefault("permissionsHandlerModule", true);
-        config.addDefault("profileSocialModule", true);
-        config.addDefault("anticheatModule", true);
-        config.addDefault("logHandlerModule", true);
-        config.addDefault("griefProtectionModule", true);
-        config.addDefault("channelHandlerModule", true);
-        config.addDefault("hologramModule", true);
-        config.addDefault("mapSketchingHandlerModule", true);
-        config.addDefault("GUICreatorModule", true);
-        config.addDefault("minigameCreatorModule", true);
-        config.addDefault("recipeCreatorModule", true);
-        config.addDefault("packCreatorModule", true);
-        config.addDefault("economyHandlerModule", true);
-        config.addDefault("factionsModule", true);
-        config.addDefault("warpHandlerModule", true);
-        config.addDefault("skyblockModule", true);
-        config.addDefault("oneblockModule", true);
-        config.addDefault("generationHandlerModule", true);
-        config.options().copyDefaults(true);
         saveConfig();
         new commands(this);
     }

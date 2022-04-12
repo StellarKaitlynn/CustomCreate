@@ -4,7 +4,6 @@ import jdk.javadoc.internal.tool.Main;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-
 import java.util.List;
 
 public class commands implements CommandExecutor {
